@@ -1,0 +1,22 @@
+site_name: bstage
+site_description: RearPortal
+repo_url: https://github.com/RearPortal/rearportal
+edit_uri: edit/master/docs/
+
+
+
+nav:
+  - Table of Contents: index.md
+  
+  - Plugins:
+    - Sentry : 'sentry.md'
+    - Argocd : 'argocd.md'
+    - ccf: 'ccf.md'
+    - gitlab: 'gitlab.md'
+    - humanitec: 'humanitec.md'
+    - jira: 'jira.md'
+    - bitrise: 'bitrise.md'
+    - buildkite: 'buildkite.md'
+    - grafana: 'grafana.md'
+    - stackoverflow: 'stackoverflow.md'
+    - securityInsights: 'security-insights.md'
