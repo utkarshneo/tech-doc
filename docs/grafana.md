@@ -2,13 +2,13 @@
 
 **Description:** The plugin will show the details of the Grafana project and Dashboard on Rearportal for Managing the Infrastructure for Grafana. **
 
-- Contributor List
+- Dashboard templating This is one Grafana feature that’s really useful. 
 
-- Code Language Distribution
+- Provisioning
 
-- The root Readme
+- Annotation
 
-- Release List (optional)
+- Kiosk mode and playlists
 
 **Business Value:** The notion of surfacing relevant metadata in the single pane of glass is exemplied here.
 
@@ -18,7 +18,7 @@ We can see some useful insights without searching for the repository in GitHub.
 
 ### Developer Docs
 
-Developer Docs are mentioned here: https://github.com/RoadieHQ/roadie-backstage-plugins/tree/main/plugins/frontend/backstage-plugin-github-insights
+Developer Docs are mentioned here: (https://github.com/K-Phoen/backstage-plugin-grafana)
 
 ### User Docs
 
@@ -34,7 +34,7 @@ annotations:
 
 ### Owner of the Package
 
-[Roadie](https://github.com/RoadieHQ/roadie-backstage-plugins/tree/main/plugins/frontend/backstage-plugin-github-insights)
+[Roadie](https://github.com/K-Phoen/backstage-plugin-grafana)
 
 ## Decision
 

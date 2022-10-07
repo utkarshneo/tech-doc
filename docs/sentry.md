@@ -1,6 +1,6 @@
-# GitHub Insights Plugin
+# Sentry Plugin
 
-**Description:** The plugin will showcase a new tab with the following insights about the GitHub repository catalog in RearPortal:
+**Description:** The Sentry Plugin displays issues from Sentry.
 
 - Contributor List
 
@@ -10,11 +10,11 @@
 
 - Release List (optional)
 
-**Business Value:** The notion of surfacing relevant metadata in the single pane of glass is exemplied here.
+**Business Value:** The Idea of using the Sentry Plugin is to support the usage of backstage to monitor the errors and warnings from sentry as a Service
 
-We can see some useful insights without searching for the repository in GitHub.
 
 ## Plugin Deep-Dive
+
 
 ### Developer Docs
 

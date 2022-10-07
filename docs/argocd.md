@@ -21,7 +21,7 @@
 
 ### Developer Docs
 
-Developer Docs are mentioned here: https://roadie.io/backstage/plugins/argo-cd/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=argo-cd
+Developer Docs are mentioned here: (https://roadie.io/backstage/plugins/argo-cd/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=argo-cd)
 
 ### User Docs
 

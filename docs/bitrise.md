@@ -19,8 +19,7 @@ Build your dream CI/CD workflows with no limits on concurrency. Scale to infinit
 
 ### Developer Docs
 
-Developer Docs are mentioned here: 
-https://roadie.io/backstage/plugins/buildkite/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=buildkite
+Developer Docs are mentioned here: (https://roadie.io/backstage/plugins/buildkite/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=buildkite)
 
 ### User Docs
 
@@ -36,7 +35,7 @@ metadata:
 
 ### Owner of the Package
 
-[Roadie]https://roadie.io/backstage/plugins/buildkite/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=buildkite
+[Roadie](https://roadie.io/backstage/plugins/buildkite/?utm_source=backstage.io&utm_medium=marketplace&utm_campaign=buildkite)
 
 ## Decision
 

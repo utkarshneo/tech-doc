@@ -27,7 +27,7 @@ Developer Docs are mentioned here: https://github.com/loblaw-sre/backstage-plugi
 
 The plugin if integrated requires no special attention from End users to enable it.
 
-The GitHub Annotation will do the job automatically for catalog entities
+The Gitlab Annotation will do the job automatically for catalog entities
 
 ```yaml
 apiVersion: backstage.io/v1alpha1

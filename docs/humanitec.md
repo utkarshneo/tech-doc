@@ -1,26 +1,27 @@
 # Humanitec Plugin
 
-**Description:** The Plugin will show humanitec 
+**Description:** 
+Show workloads, environments and resources deployed by Humanitec Platform Orchestrator. Plugin includes an Entity ComponentCard, Backend API route and scaffolder actions
 
-The plugin will showcase a new tab with the following insights about the GitHub repository catalog in RearPortal:
+The Plugin has following features:
 
-- Contributor List
+- Definition of baseline configurations
 
-- Code Language Distribution
+- Role Based Access Control 
 
-- The root Readme
+- Infrastructure orchestration
 
-- Release List (optional)
+- Definition of resource dependencies (e.g., which kind of environments should be equipped with which kind of infrastructure)
 
 **Business Value:** The notion of surfacing relevant metadata in the single pane of glass is exemplied here.
 
-We can see some useful insights without searching for the repository in GitHub.
+We can see some useful insights without searching for the repository in Humanitec
 
 ## Plugin Deep-Dive
 
 ### Developer Docs
 
-Developer Docs are mentioned here: https://github.com/RoadieHQ/roadie-backstage-plugins/tree/main/plugins/frontend/backstage-plugin-github-insights
+Developer Docs are mentioned here: (https://github.com/thefrontside/backstage/tree/main/plugins/humanitec)
 
 ### User Docs
 
@@ -29,14 +30,33 @@ The plugin if integrated requires no special attention from End users to enable 
 The GitHub Annotation will do the job automatically for catalog entities
 
 ```yaml
-metadata:
-  annotations:
-    github.com/project-slug: [organization name]/[repository name]
+humanitec:
+  orgId: my-humanitec-organization
+  token: ${HUMANITEC_TOKEN} # without Bearer
 ```
+
+```yaml
+# ./catalog-humanitec-workloads.yaml
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: name-of-application-workload # 🚨 CHANGE
+  description: Humanitec Workload Environments
+  annotations:
+    "humanitec.com/orgId": "my-humanitec-organization" # 🚨 CHANGE
+    "humanitec.com/appId": "my-humanitec-application" # 🚨 CHANGE
+spec:
+  type: service
+  owner: john@example.com
+  lifecycle: experimental
+
+```
+
+
 
 ### Owner of the Package
 
-[Roadie](https://github.com/RoadieHQ/roadie-backstage-plugins/tree/main/plugins/frontend/backstage-plugin-github-insights)
+[FrontSide]https://frontside.com)
 
 ## Decision
 
